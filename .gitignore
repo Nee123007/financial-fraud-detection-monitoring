@@ -1,0 +1,38 @@
+# Large Data Files (Kaggle Dataset is 198MB CSV - fetch via scripts/download_dataset.py)
+*.csv
+!data/sample_fraud_transactions.csv
+*.zip
+*.parquet
+*.feather
+*.h5
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output artifacts & exports
+fraud_monitoring_outputs/
+*.log
+catboost_info/
